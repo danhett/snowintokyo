@@ -1,0 +1,23 @@
+// Pink sphere nest with reactive cube sketch
+
+background #040404
+
+noFill
+color pink
+
+grow:1.1
+do 20 times
+push
+ scale grow
+ grow: grow * 1.1
+ rotate SECS * 6 * grow, SECS * 4 * grow, SECS * 2 * grow
+ ball
+pop
+end
+
+rotate TIME/10, TIME/20, TIME/30
+fill white
+tile 5, 5, 5
+scale 0.5 +  KICK * rand(1)
+box 0.6
+end
