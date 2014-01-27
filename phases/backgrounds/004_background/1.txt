@@ -1,0 +1,8 @@
+noFill
+
+rot: 10
+tile 18,12,1
+ color lerp($p, fft(9))
+ scale 0.8 + (fft(3) * 0.2)
+ box
+end
