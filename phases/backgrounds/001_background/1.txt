@@ -1,0 +1,10 @@
+noFill
+stroke 3
+
+rot: 10
+tile 18,12,1
+ color lerp($p, fft(2))
+ rotate TIME/10, TIME/20, TIME/40
+ scale 0.5 + rand(fft(1)/2)
+ box
+end
