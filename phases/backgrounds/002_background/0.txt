@@ -1,0 +1,27 @@
+// snowintokyo
+// music   : deadbear
+// visuals : danhett
+// project : https://github.com/danhett/snowintokyo/
+// desc    : base visual template
+
+// background color
+background #1A1A1A
+
+// individual colors
+#NEON1: #D3F705
+#NEON2: #F29149
+#NEON3: #F85763
+#NEON4: #F00E70
+#NEON5: #402A73
+
+// color palette
+palette $p
+ 20 #D3F705
+ 20 #F29149
+ 20 #F85763
+ 20 #F00E70
+ 20 #402A73
+end
+
+// constants
+init segment: 360/6

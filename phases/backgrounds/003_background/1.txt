@@ -1,0 +1,9 @@
+fill
+
+rot: 10
+tile 18,12,1
+ color #NEON5
+ rotate 0,45,90
+ scale 1 - (fft(4))
+ box
+end

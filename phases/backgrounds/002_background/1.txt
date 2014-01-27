@@ -1,0 +1,9 @@
+noFill
+stroke 1
+
+rot: 10
+tile 18,12,1
+ color lerp($p, fft(2))
+ scale 0.5 + rand(fft(1)/2)
+ box
+end
